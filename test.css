@@ -22,12 +22,12 @@ p {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: gray;
+  margin: auto;
+  border: 5px solid black; 
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
-  margin: auto;
-  border: 5px solid black; 
   background-color: inherit;
   float: left;
   border: none;
