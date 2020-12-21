@@ -1,1 +1,18 @@
-
+h1 {
+          color: black;
+          font-size: 50px;
+}
+p {
+          color: white;
+          font-size: 40px;
+          font-weight: bold;
+}
+.test {
+          margin: auto;
+          width: 50%;
+          text-align: center;
+          background-color: CornFlowerBlue;
+          border: 10px solid black; 
+          border-radius: 25%;
+          padding: 20px;
+}
