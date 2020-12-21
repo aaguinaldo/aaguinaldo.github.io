@@ -19,6 +19,7 @@ p {
 /* Style the tab */
 .tab {
   margin: auto;
+  height: auto;
   width: 1000px;
   padding: 15px;
   overflow: hidden;
