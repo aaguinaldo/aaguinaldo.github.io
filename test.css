@@ -12,8 +12,8 @@ p {
            width: 50%;
            text-align: center;
            background-color: lightblue;
-           border: 10px solid black; 
-           border-radius: 25%;
+           border: 2px solid black; 
+           border-radius: 10%;
            padding: 20px;
 }
 /* Style the tab */
@@ -36,7 +36,7 @@ p {
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 /* Change background color of buttons on hover */
@@ -60,7 +60,8 @@ p {
 /*Adjust top div based on screen width */
 @media screen and (max-width: 200px) {
   .test {
-     width: 25%;     
+     width: 25%;
+     background-color: lavender;
   }
 }
 
