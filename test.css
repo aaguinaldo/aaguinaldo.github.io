@@ -1,26 +1,26 @@
 h1 {
-          color: black;
-          font-size: 30px;
+  color: black;
+  font-size: 28px;
 }
 p {
-          color: #3366cc;
-          font-size: 18px;
-          font-weight: bold;
+  color: gray;
+  font-size: 16px;
+  font-weight: bold;
 }
 .test {
-           margin: auto;
-           width: 500px;
-           text-align: center;
-           background-color: powderblue;
-           border: 2px solid black; 
-           border-radius: 5%;
-           padding: 20px;
+  margin: auto;
+  width: 600px;
+  text-align: center;
+  background-color: powderblue;
+  border: 2px solid black; 
+  border-radius: 5%;
+  padding: 20px;
 }
 /* Style the tab */
 .tab {
   margin: auto;
   height: auto;
-  width: 500px;
+  width: 600px;
   padding: 15px;
   overflow: hidden;
   border: 1px solid #ccc;
@@ -37,6 +37,7 @@ p {
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.5s;
+  font-weight: bold;
 }
 
 /* Change background color of buttons on hover */
