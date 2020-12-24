@@ -20,7 +20,7 @@ p {
 .tab {
   margin: auto;
   height: auto;
-  width: 500px;
+  width: 700px;
   padding: 15px;
   overflow: hidden;
   border: 1px solid #ccc;
@@ -61,16 +61,8 @@ p {
 
 /*Adjust top div based on screen width */
 @media screen and (max-width: 300px) {
-  .test {
+  body {
      width: 50%;
-     background-color: orange;
   }
 }
 
-/*Adjust tabs based on screen width */
-@media screen and (max-width: 300px) {
-  .tab {
-     width: 50%;
-     background-color: orange;
-  }
-}
