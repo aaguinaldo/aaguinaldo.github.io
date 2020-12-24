@@ -3,15 +3,15 @@ h1 {
   font-size: 28px;
 }
 p {
-  color: gray;
+  color: black;
   font-size: 16px;
   font-weight: bold;
 }
 .test {
   margin: auto;
-  width: 500px;
+  width: 700px;
   text-align: center;
-  background-color: green;
+  background-color: powderblue;
   border: 2px solid black; 
   border-radius: 5%;
   padding: 20px;
@@ -25,7 +25,8 @@ p {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: powderblue;
-  border: 3px solid black; 
+  border: 3px solid black;
+  border-radius: 5%;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -36,13 +37,13 @@ p {
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
-  transition: 0.5s;
+  transition: 0.2s;
   font-weight: bold;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: purple;
 }
 
 /* Create an active/current tablink class */
@@ -61,7 +62,7 @@ p {
 /*Adjust top div based on screen width */
 @media screen and (max-width: 300px) {
   .test {
-     width: 25%;
+     width: 50%;
      background-color: orange;
   }
 }
@@ -69,7 +70,7 @@ p {
 /*Adjust tabs based on screen width */
 @media screen and (max-width: 300px) {
   .tab {
-     width: 25%;
+     width: 50%;
      background-color: orange;
   }
 }
