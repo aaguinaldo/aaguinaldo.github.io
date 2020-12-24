@@ -11,9 +11,9 @@ p {
            margin: auto;
            width: 50%;
            text-align: center;
-           background-color: lightblue;
+           background-color: powderblue;
            border: 2px solid black; 
-           border-radius: 10%;
+           border-radius: 5%;
            padding: 20px;
 }
 /* Style the tab */
@@ -58,17 +58,17 @@ p {
 }
 
 /*Adjust top div based on screen width */
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 300px) {
   .test {
      width: 25%;
-     background-color: lavender;
+     background-color: orange;
   }
 }
 
 /*Adjust tabs based on screen width */
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 300px) {
   .tab {
      width: 25%;
-     background-color: lavender;
+     background-color: orange;
   }
 }
