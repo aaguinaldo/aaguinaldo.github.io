@@ -9,7 +9,7 @@ p {
 }
 .test {
            margin: auto;
-           width: 50%;
+           width: 500px;
            text-align: center;
            background-color: powderblue;
            border: 2px solid black; 
@@ -20,7 +20,7 @@ p {
 .tab {
   margin: auto;
   height: auto;
-  width: 50%;
+  width: 500px;
   padding: 15px;
   overflow: hidden;
   border: 1px solid #ccc;
@@ -60,7 +60,7 @@ p {
 /*Adjust top div based on screen width */
 @media screen and (max-width: 300px) {
   .test {
-     width: 25%;
+     width: 50%;
      background-color: orange;
   }
 }
@@ -68,7 +68,7 @@ p {
 /*Adjust tabs based on screen width */
 @media screen and (max-width: 300px) {
   .tab {
-     width: 25%;
+     width: 50%;
      background-color: orange;
   }
 }
