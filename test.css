@@ -4,12 +4,12 @@ h1 {
 }
 p {
   color: black;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
 }
 .test {
   margin: auto;
-  width: 700px;
+  width: 500px;
   text-align: center;
   background-color: powderblue;
   border: 2px solid black; 
@@ -20,7 +20,7 @@ p {
 .tab {
   margin: auto;
   height: auto;
-  width: 700px;
+  width: 500px;
   padding: 15px;
   overflow: hidden;
   border: 1px solid #ccc;
@@ -60,9 +60,10 @@ p {
 }
 
 /*Adjust top div based on screen width */
+/*
 @media screen and (max-width: 300px) {
   body {
      width: 50%;
   }
 }
-
+*/
