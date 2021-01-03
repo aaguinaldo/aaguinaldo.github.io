@@ -46,7 +46,7 @@ p {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: purple;
+  background-color: orange;
 }
 
 /* Create an active/current tablink class */
