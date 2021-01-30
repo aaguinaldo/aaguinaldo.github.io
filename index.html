@@ -18,23 +18,16 @@
       }
     </style>
     <script>
-      function openTab(evt, Tab) {
+      function openTab(Tab) {
       // Declare all variables
-      var i, tabcontent, tablinks;
+      var i;
       // Get all elements with class="tabcontent" and hide them
-      tabcontent = document.getElementsByClassName("tabcontent");
+      var tabcontent = document.getElementsByClassName("tabcontent");
       for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
       }
-      /*
-      tablinks = document.getElementsByClassName("tablink");
-      for (i = 0; i < x.length; i++) {
-      tablinks[i].className = tablinks[i].className.replace(" w3-gray", "");
-      }
-      */
       // Show the current tab, and add an "active" class to the button that opened the tab
       document.getElementById(Tab).style.display = "block";
-      // evt.currentTarget.className += " w3-gray";
       }
     </script>
   </head>
