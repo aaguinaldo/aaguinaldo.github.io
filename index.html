@@ -26,13 +26,15 @@
       for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
       }
+      /*
       tablinks = document.getElementsByClassName("tablink");
       for (i = 0; i < x.length; i++) {
       tablinks[i].className = tablinks[i].className.replace(" w3-gray", "");
       }
+      */
       // Show the current tab, and add an "active" class to the button that opened the tab
       document.getElementById(Tab).style.display = "block";
-      evt.currentTarget.className += " w3-gray";
+      // evt.currentTarget.className += " w3-gray";
       }
     </script>
   </head>
@@ -46,11 +48,11 @@
             <br>
          </div>
              <div class="w3-bar w3-black w3-center">
-                <button class="w3-bar-item w3-button tablink w3-gray" onclick="openTab('AboutMe')">About Me</button>
-                <button class="w3-bar-item w3-button tablink" onclick="openTab('Expertise')">Expertise</button>
-                <button class="w3-bar-item w3-button tablink" onclick="openTab('Hobbies')">Hobbies</button>
+                <button class="w3-bar-item w3-button" onclick="openTab('AboutMe')">About Me</button>
+                <button class="w3-bar-item w3-button" onclick="openTab('Expertise')">Expertise</button>
+                <button class="w3-bar-item w3-button" onclick="openTab('Hobbies')">Hobbies</button>
              </div>                                                               
-                <div id="AboutMe" class="w3-container w3-display-container tabcontent">
+                <div id="AboutMe" class="w3-container w3-display-container tabcontent" style="display:none">
                   <br>
                   <ul class="w3-ul w3-card-2 w3-white" style="width:100%">
                     <li>757 Native</li>
