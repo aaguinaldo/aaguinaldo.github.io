@@ -18,16 +18,21 @@
       }
     </style>
     <script>
-      function openTab(Tab) {
+      function openTab(evt, Tab) {
       // Declare all variables
-      var i;
+      var i, tablinks;
       // Get all elements with class="tabcontent" and hide them
       var tabcontent = document.getElementsByClassName("tabcontent");
       for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
       }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" w3-gray", "");
+      }
       // Show the current tab, and add an "active" class to the button that opened the tab
       document.getElementById(Tab).style.display = "block";
+      evt.currentTarget.className += " w3-gray";
       }
     </script>
   </head>
@@ -46,7 +51,6 @@
                 <button class="w3-bar-item w3-button" onclick="openTab('Hobbies')">Hobbies</button>
              </div>                                                               
                 <div id="AboutMe" class="w3-container w3-display-container tabcontent" style="display:none">
-                <span onclick="this.parentElement.style.display='none'" class="w3-button w3-small w3-display-topright">&times;</span>
                   <br>
                   <ul class="w3-ul w3-card-2 w3-white" style="width:100%">
                     <li>757 Native</li>
@@ -57,7 +61,6 @@
                </div>
          
                 <div id="Expertise" class="w3-container w3-display-container tabcontent" style="display:none">
-                <span onclick="this.parentElement.style.display='none'" class="w3-button w3-small w3-display-topright">&times;</span>
                  <br>
                  <ul class="w3-ul w3-card-2 w3-white" style="width:100%">
                     <li>Data Analysis</li>
@@ -68,7 +71,7 @@
                 </div>
 
                <div id="Hobbies" class="w3-container w3-display-container tabcontent" style="display:none">
-                 <span onclick="this.parentElement.style.display='none'" class="w3-button w3-small w3-display-topright">&times;</span>
+                 <!--<span onclick="this.parentElement.style.display='none'" class="w3-button w3-small w3-display-topright">&times;</span> -->
                  <br>
                  <ul class="w3-ul w3-card-2 w3-white" style="width:100%">
                     <li>Camping</li>
